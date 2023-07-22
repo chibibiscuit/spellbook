@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+
+:host {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+
+    @media print {
+        position: unset;
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+        overflow: visible !important;
+    }
+}
+
+.full-height {
+    height: 100%;
+
+    @media print {
+        height: auto;
+    }
+}
+
+.filter-container {
+    padding: 8px;
+    border: 1px solid white;
+
+    .filter-label {
+        font-size: 1.2em;
+        padding: 12px 12px 0px 12px;
+    }
+}
+
+.spell-list-container {
+    overflow-y: auto;
+}
+
+.spell {
+    cursor: pointer !important;
+
+    .mat-icon {
+        padding-right: 16px;
+    }
+    .spell-name {
+        padding-left: 24px;
+    }
+
+    &.selected {
+        background-color: #7c4dff;
+    }
+}
+
+.mat-drawer {
+    padding: 8px;
+}
+
+.toolbar {
+    @media print {
+        display: none;
+    }
+}
+
+.preview {
+    background-color: black;
+
+    @media print {
+        overflow: visible !important;
+    }
+}
+
+.blank-page {
+    box-sizing: border-box;
+    padding: 0.5in 0.5in 0.75in 0.35in;
+    border-right: 1px solid #efefef;
+}
+
+.spell-page {
+    box-sizing: border-box;
+    padding: 0.5in 0.35in 0.75in 0.5in;
+}
+
+.page {
+    background-color: white !important;
+    color: black !important;
+    box-shadow: 4px 4px 8px black;
+
+    box-sizing: border-box;
+    width: 11in;
+    height: 8.5in;
+    padding: 0.25in;
+    // margin: 24px;
+    max-width: 100%;
+    font-family: 'Philosopher';
+
+    & ~ & {
+        margin-top: 16px;
+    }
+
+    // @media screen {
+    //     transform: scale(0.5);
+    //     transform-origin: 0% 0% 0px;
+    // }
+
+    @media print {
+        margin: 0;
+        box-shadow: none;
+
+    }
+
+    .spell-name {
+        font-family: 'Spectral';
+        font-size: 30pt;
+    }
+
+    .spell-subtitle {
+        font-size: 12pt;
+        font-style: italic;
+        opacity: 0.8;
+    }
+
+    .spell-description {
+        text-align: justify;
+    }
+}
