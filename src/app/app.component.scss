@@ -29,7 +29,6 @@
 
 .filter-container {
     padding: 8px;
-    border: 1px solid white;
 
     .filter-label {
         font-size: 1.2em;
@@ -49,6 +48,7 @@
     }
     .spell-name {
         padding-left: 24px;
+        user-select: none;
     }
 
     &.selected {
@@ -74,18 +74,28 @@
     }
 }
 
+$top-margin: 0.65in;
+$inner-margin: 0.7in;
+$outer-margin: 0.45in;
+$bottom-margin: 0.75in;
+
 .blank-page {
+    position: relative;
     box-sizing: border-box;
-    padding: 0.5in 0.5in 0.75in 0.35in;
-    border-right: 1px solid #efefef;
+    padding: $top-margin $outer-margin $bottom-margin $inner-margin;
+    border-left: 1px solid #efefef;
 }
 
 .spell-page {
+    position: relative;
     box-sizing: border-box;
-    padding: 0.5in 0.35in 0.75in 0.5in;
+    padding: $top-margin $inner-margin $bottom-margin $outer-margin;
+    // background-image: url('/src/assets/images/schools/abjuration.png');
+    // background-position: ;
 }
 
 .page {
+    position: relative;
     background-color: white !important;
     color: black !important;
     box-shadow: 4px 4px 8px black;
@@ -93,7 +103,7 @@
     box-sizing: border-box;
     width: 11in;
     height: 8.5in;
-    padding: 0.25in;
+    // padding: 0.25in;
     // margin: 24px;
     max-width: 100%;
     font-family: 'Philosopher';
@@ -110,21 +120,123 @@
     @media print {
         margin: 0;
         box-shadow: none;
+        page-break-inside: avoid;
+        // page-break-before: always;
+    }
 
+    .school-icon {
+        // position: absolute;
+        // top: 0.25in;
+        // right: 0.35in;
+        opacity: 0.05;
+        // height: 1.5in;
+        // float: right;
+        // margin-top: -0.1in;
+        // width: 70%;
+        // position: absolute;
+        // left: 50%;
+        // top: 25%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 3in;
+        margin-top: -30%; /* Half the height */
+        margin-left: -1.5in; /* Half the width */
     }
 
     .spell-name {
         font-family: 'Spectral';
         font-size: 30pt;
+        margin-bottom: 8px;
+        margin-left: -4px;
+        line-height: 30pt;
     }
 
     .spell-subtitle {
         font-size: 12pt;
         font-style: italic;
         opacity: 0.8;
+        width: 100%;
     }
 
     .spell-description {
+        position: relative;
         text-align: justify;
+        z-index: 2;
+        // font-size: 11pt !important;
+
+        &.tooFuckingLong {
+            font-size: 8pt !important;
+        }
     }
+
+    .details {
+        margin-top: 12px;
+        margin-bottom: 18px;
+
+        .detail-row {
+            label {
+                font-weight: bold;
+            }
+
+            .detail {
+                padding-left: 8px;
+            }
+        }
+    }
+
+    .spell-source {
+        // position: absolute;
+        // // bottom: 1in;
+        // right: 0.75in;
+        // font-style: italic;
+        // opacity: 0.7;
+        text-align: right;
+    }
+
+    
+}
+
+.page-footer {
+    position: absolute;
+    bottom: 0.35in;
+    width: 4.7in;
+    left: 50%;
+    // margin-left: -2.5in;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.page-number {
+    font-family: 'Spectral';
+    font-weight: bold;
+    font-size: 11pt;
+    position:absolute;
+    bottom: 0.48in;
+    width: 0.5in;
+    text-align: center;
+    left: 50%;
+    margin-left: -0.25in;
+    opacity: 0.8;
+}
+
+.spell-page .page-number {
+    margin-left: -0.35in;
+}
+.blank-page .page-number {
+    margin-left: -0.15in;
+}
+
+.spell-page .page-footer {
+    margin-left: -2.45in;
+}
+
+.blank-page .page-footer {
+    margin-left: -2.25in;
+}
+
+@page {
+    size: 8.5in 5.5in portrait;
+
 }

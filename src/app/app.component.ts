@@ -39,12 +39,79 @@ export class AppComponent {
   
   ngOnInit(): void {
     this.allSpells.forEach(spell => {
-      spell['@descHtml'] = this.sanitizer.bypassSecurityTrustHtml(spell.desc)
-    })
-    console.log('spells', spells)
+      //splitting time
+      // if (spell.desc.length > 1000) {
+      //   let desc1: string = spell.desc.substring(0, 1000);
+        
+      // }
+      if (spell.higher_level)
+        spell.desc += spell.higher_level;
+      
+      spell.desc = spell.desc.replace(/([1-9]+d(4|6|8|10|12|20|100)\s[\S]*\sdamage)/g, '<span style="opacity: 0.9; font-weight: bold;">$1</span>' );
+      spell.desc = spell.desc.replace(/([1-9]+d(4|6|8|10|12|20|100))/g, '<span style="opacity: 0.9; font-weight: bold;">$1</span>');
+
+      // if (spell.higher_level) {
+      //   spell.higher_level = spell.higher_level.replace(/([1-9]+d(4|6|8|10|12|20|100))/g, '<span style="opacity: 0.9; font-weight: bold;">$1</span>' );
+      //   spell['@higherLevelHtml'] = this.sanitizer.bypassSecurityTrustHtml(spell.higher_level);
+      // }
+      let desc1: string = '';
+      let desc2: string = '';
+
+      if (spell.desc.length > 3200) {
+        spell['@fontSize'] = '8pt';
+
+        console.warn('TOO FUCKING LONG', spell.name)
+        spell['@selected'] = true;
+
+        let paragraphs: string[] = spell.desc.split(/(?=<p>|<li>)/g);
+        paragraphs.forEach(p => {
+          if (desc1.length + p.length > 1600)
+            desc2 += p;
+          else
+            desc1 += p;
+        })
+      } else if (spell.desc.length > 2500) {
+        spell['@fontSize'] = '9pt';
+
+        console.warn('TOO FUCKING LONG', spell.name)
+        spell['@selected'] = true;
+
+        let paragraphs: string[] = spell.desc.split(/(?=<p>|<li>)/g);
+        paragraphs.forEach(p => {
+          if (desc1.length + p.length > 1200)
+            desc2 += p;
+          else
+            desc1 += p;
+        })
+      } else if (spell.desc.length > 1200) {
+        let paragraphs: string[] = spell.desc.split(/(?=<p>|<li>)/g);
+
+        paragraphs.forEach(p => {
+          if (desc1.length + p.length > 1200)
+            desc2 += p;
+          else
+            desc1 += p;
+        })
+      } else {
+        desc1 = spell.desc;
+      }
+      // console.log("🚀 ~ file: app.component.ts:48 ~ AppComponent ~ ngOnInit ~ paragraphs:", paragraphs)
+
+
+      
+      spell['@descHtml'] = this.sanitizer.bypassSecurityTrustHtml(desc1);
+      spell['@adtlDescHtml'] = this.sanitizer.bypassSecurityTrustHtml(desc2);
+      
+      
+      // spell['@selected'] = true;
+
+    });
+
     this.spells = this.allSpells
       .sort(sortAlphabetically('name'))
       .sort(sortNumerically('level'));
+
+      // this.selectedSpells = this
   }
 
   toggleSpell(spell: Spell): void {

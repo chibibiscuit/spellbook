@@ -12,6 +12,7 @@ export class Spell {
     desc: string;
     range: string; // convert to number
     ritual: boolean;
+    casting_time: string;
     duration: string; // Instantaneous / seconds / minutes / hours / days
     concentration: boolean;
     level: number;
@@ -42,4 +43,7 @@ export class Spell {
 
     '@selected'?: boolean;
     '@descHtml'?: SafeHtml;
+    '@adtlDescHtml'?: SafeHtml;
+    '@higherLevelHtml'?: SafeHtml;
+    '@fontSize'?: string = '10pt';
 }
