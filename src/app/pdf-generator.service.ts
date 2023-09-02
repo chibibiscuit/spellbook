@@ -37,7 +37,6 @@ export class PdfGeneratorService {
   private pageFooterSize = 36;
 
   constructor() { 
-    // (pdfMake as any).virtualfs = pdfFonts.pdfMake.vfs;
     (pdfMake as any).fonts = {
       Spectral: {
         normal: `${window.location.origin}/assets/fonts/Spectral/Spectral-Regular.ttf`,
