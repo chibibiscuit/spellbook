@@ -13,7 +13,7 @@
           <div class="filter-container flex-item-auto">
             <div class="filter-label">Level</div>
             <mat-chip-listbox class="mat-mdc-chip-set-stacked">
-              <mat-chip-option *ngFor="let level of levels">
+              <mat-chip-option *ngFor="let level of levels" (click)="selectLevel(level)">
                 {{ level }}
               </mat-chip-option>
             </mat-chip-listbox>
@@ -31,7 +31,7 @@
           <div class="filter-container flex-item-auto">
             <div class="filter-label">Class</div>
             <mat-chip-listbox class="mat-mdc-chip-set-stacked">
-              <mat-chip-option *ngFor="let class of classes">
+              <mat-chip-option *ngFor="let class of classes" (click)="selectClass(class)">
                 {{ class.name }}
               </mat-chip-option>
             </mat-chip-listbox>
@@ -114,8 +114,40 @@
     </mat-toolbar>
   </div>
 
-  <div class="flex-item-auto overflow-auto preview align-items-center">
-    <div *ngFor="let spell of selectedSpells; let i = index" class="flex-row page">
+  <div class="flex-item-auto overflow-auto preview align-items-center" #printDiv>
+    <div *ngFor="let spell of selectedSpells; let i = index" class="page">
+      
+        <div class="spell-name">{{ spell.name }}</div>
+        <div class="spell-subtitle">
+          <span *ngIf="spell.level === 0">
+            {{ spell.school }} {{ spell.level_desc | lowercase }} {{ spell.ritual ? '(ritual)' : '' }}
+          </span>
+          <span *ngIf="spell.level > 0">
+            {{ spell.level_desc }} {{ spell.school }} {{ spell.ritual ? '(ritual)' : '' }}
+          </span>
+        </div>
+
+        <div class="details">
+          <div class="detail-row">
+            <label>Casting Time</label> <span class="detail">{{ spell.casting_time }}</span>
+          </div>
+          <div class="detail-row">
+            <label>Range</label> <span class="detail">{{ spell.range_desc }}</span>
+          </div>
+          <div class="detail-row">
+            <label>Components</label> <span class="detail">{{ spell.component_desc }}</span>
+            <span class="detail">{{ spell.material ? '(' + spell.material_desc + ')' : '' }}</span>
+          </div>
+          <div class="detail-row">
+            <label>Duration</label> <span class="detail">{{ spell.duration }}</span>
+          </div>
+        </div>
+
+        <div class="spell-description" [style.fontSize]="spell['@fontSize']" [innerHtml]="spell['@descHtml']"></div>
+        <!-- <div class="page-number">{{ i * 2 + 2}}</div> -->
+      </div>
+      
+    <!-- <div *ngFor="let spell of selectedSpells; let i = index" class="flex-row page">
       
       <div class="flex-item-auto spell-page">
         <img class="school-icon" src="assets/images/schools/{{spell.school}}.png"/>
@@ -158,9 +190,11 @@
         <div class="page-number">{{ i * 2 + 2}}</div>
 
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
-
+<!-- <footer class="page-footer">
+  <img src="assets/images/footer.jpg"/>
+</footer> -->
 <router-outlet></router-outlet>
 <!-- https://www.reddit.com/r/DnD/comments/71s8s8/art_schools_of_magic_symbols/ for symbols -->

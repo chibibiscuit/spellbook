@@ -11,7 +11,8 @@
       "school": "Necromancy",
       "class": [
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "8th-level",
       "class_desc": "Sorcerer, Wizard",
@@ -39,7 +40,8 @@
       "class": [
         "Druid",
         "Ranger",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Druid, Ranger, Wizard",
@@ -63,7 +65,8 @@
       "school": "Conjuration",
       "class": [
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Sorcerer, Wizard",
@@ -115,7 +118,8 @@
       "school": "Abjuration",
       "class": [
         "Cleric",
-        "Paladin"
+        "Paladin",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "class_desc": "Cleric, Paladin",
@@ -168,7 +172,8 @@
       "school": "Transmutation",
       "class": [
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "class_desc": "Sorcerer, Wizard",
@@ -280,7 +285,8 @@
       "school": "Necromancy",
       "class": [
         "Cleric",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
       "class_desc": "Cleric, Wizard",
@@ -331,7 +337,8 @@
       "level": 5,
       "school": "Abjuration",
       "class": [
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "5th-level",
       "class_desc": "Druid",
@@ -381,7 +388,8 @@
       "school": "Enchantment",
       "class": [
         "Druid",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "8th-level",
       "class_desc": "Druid, Wizard",
@@ -489,7 +497,8 @@
       "level": 1,
       "school": "Abjuration",
       "class": [
-        "Warlock"
+        "Warlock",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Warlock",
@@ -540,7 +549,8 @@
       "class": [
         "Cleric",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "9th-level",
       "class_desc": "Cleric, Warlock, Wizard",
@@ -566,7 +576,8 @@
       "school": "Divination",
       "class": [
         "Cleric",
-        "Ritual Caster"
+        "Ritual Caster",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "cleric_domain": [
@@ -664,7 +675,8 @@
       "school": "Transmutation",
       "class": [
         "Bard",
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "5th-level",
       "class_desc": "Bard, Druid",
@@ -691,7 +703,8 @@
       "school": "Enchantment",
       "class": [
         "Bard",
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "archetype": [
         "Paladin: Vengeance"
@@ -1003,13 +1016,14 @@
       "school": "Enchantment",
       "class": [
         "Cleric",
-        "Paladin"
+        "Paladin",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "cleric_domain": [
         "Life"
       ],
-      "class_desc": "Cleric, Cleric: Life, Paladin",
+      "class_desc": "Cleric, Cleric: Life, Paladin, Witch Doctor",
       "range_desc": "30 feet",
       "component_desc": "V, S, M",
       "verbal": true,
@@ -1035,7 +1049,8 @@
         "Druid",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "4th-level",
       "druid_circle": [
@@ -1088,7 +1103,8 @@
         "Bard",
         "Cleric",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Warlock: Fiend"
@@ -1185,7 +1201,8 @@
       "level": 6,
       "school": "Transmutation",
       "class": [
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "6th-level",
       "class_desc": "Druid",
@@ -1330,7 +1347,8 @@
       "school": "Enchantment",
       "class": [
         "Bard",
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "archetype": [
         "Warlock: Archfey"
@@ -1449,7 +1467,8 @@
       "class": [
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Sorcerer, Warlock, Wizard",
@@ -1502,7 +1521,8 @@
       "class": [
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "6th-level",
       "class_desc": "Sorcerer, Warlock, Wizard",
@@ -1553,7 +1573,8 @@
         "Bard",
         "Cleric",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Warlock: Great Old One"
@@ -1768,7 +1789,8 @@
       "class": [
         "Druid",
         "Ranger",
-        "Ritual Caster"
+        "Ritual Caster",
+        "Witch Doctor"
       ],
       "archetype": [
         "Paladin: Ancients"
@@ -1915,7 +1937,8 @@
         "Bard",
         "Druid",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: Knowledge"
@@ -2389,7 +2412,8 @@
       "class": [
         "Druid",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Druid, Sorcerer, Wizard",
@@ -2414,7 +2438,8 @@
       "class": [
         "Cleric",
         "Druid",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "4th-level",
       "class_desc": "Cleric, Druid, Wizard",
@@ -2576,7 +2601,8 @@
       "school": "Conjuration",
       "class": [
         "Cleric",
-        "Paladin"
+        "Paladin",
+        "Witch Doctor"
       ],
       "archetype": [
         "Druid: Desert"
@@ -2749,7 +2775,8 @@
         "Cleric",
         "Druid",
         "Paladin",
-        "Ranger"
+        "Ranger",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "cleric_domain": [
@@ -2777,7 +2804,8 @@
       "class": [
         "Bard",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Bard, Sorcerer, Wizard",
@@ -2839,7 +2867,8 @@
         "Druid",
         "Ranger",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "class_desc": "Druid, Ranger, Sorcerer, Wizard",
@@ -2898,13 +2927,14 @@
       "school": "Abjuration",
       "class": [
         "Cleric",
-        "Paladin"
+        "Paladin",
+        "Witch Doctor"
       ],
       "level_desc": "4th-level",
       "cleric_domain": [
         "Life"
       ],
-      "class_desc": "Cleric, Cleric: Life, Paladin",
+      "class_desc": "Cleric, Cleric: Life, Paladin, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S",
       "verbal": true,
@@ -3036,7 +3066,8 @@
         "Ranger",
         "Ritual Caster",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Bard, Cleric, Druid, Paladin, Ranger, Ritual Caster, Sorcerer, Wizard",
@@ -3063,7 +3094,8 @@
         "Druid",
         "Paladin",
         "Ranger",
-        "Ritual Caster"
+        "Ritual Caster",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Cleric, Druid, Paladin, Ranger, Ritual Caster",
@@ -3090,7 +3122,8 @@
       "class": [
         "Bard",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Warlock: Great Old One"
@@ -3161,7 +3194,8 @@
       "class": [
         "Bard",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: Trickery"
@@ -3251,7 +3285,8 @@
         "Paladin",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: Trickery"
@@ -3285,7 +3320,8 @@
       "level": 1,
       "school": "Enchantment",
       "class": [
-        "Bard"
+        "Bard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Warlock: Great Old One"
@@ -3775,7 +3811,8 @@
         "Bard",
         "Cleric",
         "Druid",
-        "Sorcerer"
+        "Sorcerer",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "class_desc": "Bard, Cleric, Druid, Sorcerer",
@@ -3937,7 +3974,8 @@
         "Cleric",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "7th-level",
       "class_desc": "Bard, Cleric, Sorcerer, Warlock, Wizard",
@@ -4067,7 +4105,8 @@
       "school": "Evocation",
       "class": [
         "Bard",
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: Light",
@@ -4103,7 +4142,8 @@
       "school": "Necromancy",
       "class": [
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Sorcerer, Wizard",
@@ -4131,7 +4171,8 @@
         "Bard",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
       "class_desc": "Bard, Sorcerer, Warlock, Wizard",
@@ -4215,7 +4256,8 @@
         "Cleric",
         "Druid",
         "Ritual Caster",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
       "class_desc": "Bard, Cleric, Druid, Ritual Caster, Wizard",
@@ -4241,7 +4283,8 @@
       "school": "Conjuration",
       "class": [
         "Ritual Caster",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Ritual Caster, Wizard",
@@ -4757,7 +4800,8 @@
         "Bard",
         "Druid",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "9th-level",
       "class_desc": "Bard, Druid, Warlock, Wizard",
@@ -4785,7 +4829,8 @@
         "Bard",
         "Cleric",
         "Druid",
-        "Ranger"
+        "Ranger",
+        "Witch Doctor"
       ],
       "archetype": [
         "Paladin: Devotion"
@@ -4830,7 +4875,8 @@
         "Bard",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Bard, Sorcerer, Warlock, Wizard",
@@ -4883,7 +4929,8 @@
       "class": [
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Druid: Underdark"
@@ -4972,7 +5019,8 @@
       "class": [
         "Cleric",
         "Ritual Caster",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "class_desc": "Cleric, Ritual Caster, Wizard",
@@ -5021,7 +5069,8 @@
       "school": "Transmutation",
       "class": [
         "Bard",
-        "Warlock"
+        "Warlock",
+        "Witch Doctor"
       ],
       "level_desc": "8th-level",
       "class_desc": "Bard, Warlock",
@@ -5100,7 +5149,8 @@
       "school": "Transmutation",
       "class": [
         "Druid",
-        "Ranger"
+        "Ranger",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Druid, Ranger",
@@ -5126,7 +5176,8 @@
       "school": "Conjuration",
       "class": [
         "Druid",
-        "Ranger"
+        "Ranger",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: Nature"
@@ -5219,10 +5270,11 @@
       "class": [
         "Bard",
         "Cleric",
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "5th-level",
-      "class_desc": "Bard, Cleric, Druid",
+      "class_desc": "Bard, Cleric, Druid, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S, M",
       "verbal": true,
@@ -5381,7 +5433,8 @@
       "class": [
         "Druid",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Druid, Sorcerer, Wizard",
@@ -5497,7 +5550,8 @@
         "Bard",
         "Druid",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "4th-level",
       "druid_circle": [
@@ -5525,10 +5579,11 @@
       "level": 6,
       "school": "Necromancy",
       "class": [
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "level_desc": "6th-level",
-      "class_desc": "Cleric",
+      "class_desc": "Cleric, Witch Doctor",
       "range_desc": "60 feet",
       "component_desc": "V, S",
       "verbal": true,
@@ -5549,7 +5604,8 @@
       "school": "Transmutation",
       "class": [
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Druid: Grassland",
@@ -5587,10 +5643,11 @@
       "school": "Evocation",
       "class": [
         "Cleric",
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "6th-level",
-      "class_desc": "Cleric, Druid",
+      "class_desc": "Cleric, Druid, Witch Doctor",
       "range_desc": "60 feet",
       "component_desc": "V, S",
       "verbal": true,
@@ -5613,10 +5670,11 @@
       "class": [
         "Bard",
         "Cleric",
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
-      "class_desc": "Bard, Cleric, Druid",
+      "class_desc": "Bard, Cleric, Druid, Witch Doctor",
       "range_desc": "60 feet",
       "component_desc": "V",
       "verbal": true,
@@ -6111,7 +6169,8 @@
       "school": "Abjuration",
       "class": [
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "9th-level",
       "class_desc": "Warlock, Wizard",
@@ -6187,7 +6246,8 @@
       "class": [
         "Cleric",
         "Druid",
-        "Sorcerer"
+        "Sorcerer",
+        "Witch Doctor"
       ],
       "level_desc": "5th-level",
       "cleric_domain": [
@@ -6330,7 +6390,8 @@
         "Bard",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Druid: Grassland"
@@ -6501,7 +6562,8 @@
         "Cleric",
         "Druid",
         "Paladin",
-        "Ranger"
+        "Ranger",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "cleric_domain": [
@@ -6510,7 +6572,7 @@
       "paladin_oath": [
         "Devotion"
       ],
-      "class_desc": "Bard, Cleric, Cleric: Life, Druid, Paladin, Paladin: Devotion, Ranger",
+      "class_desc": "Bard, Cleric, Cleric: Life, Druid, Paladin, Paladin: Devotion, Ranger, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S",
       "verbal": true,
@@ -6559,7 +6621,8 @@
         "Bard",
         "Cleric",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Bard, Cleric, Sorcerer, Wizard",
@@ -6670,7 +6733,8 @@
         "Bard",
         "Druid",
         "Ranger",
-        "Ritual Caster"
+        "Ritual Caster",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "class_desc": "Bard, Druid, Ranger, Ritual Caster",
@@ -6700,7 +6764,8 @@
         "Druid",
         "Paladin",
         "Ranger",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "4th-level",
       "druid_circle": [
@@ -6841,7 +6906,8 @@
         "Bard",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Bard, Sorcerer, Warlock, Wizard",
@@ -6996,7 +7062,8 @@
       "school": "Transmutation",
       "class": [
         "Paladin",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: War"
@@ -7058,13 +7125,14 @@
       "class": [
         "Bard",
         "Cleric",
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "5th-level",
       "cleric_domain": [
         "Life"
       ],
-      "class_desc": "Bard, Cleric, Cleric: Life, Druid",
+      "class_desc": "Bard, Cleric, Cleric: Life, Druid, Witch Doctor",
       "range_desc": "60 feet",
       "component_desc": "V, S",
       "verbal": true,
@@ -7084,10 +7152,11 @@
       "level": 9,
       "school": "Conjuration",
       "class": [
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "level_desc": "9th-level",
-      "class_desc": "Cleric",
+      "class_desc": "Cleric, Witch Doctor",
       "range_desc": "60 feet",
       "component_desc": "V, S",
       "verbal": true,
@@ -7108,10 +7177,11 @@
       "level": 3,
       "school": "Evocation",
       "class": [
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
-      "class_desc": "Cleric",
+      "class_desc": "Cleric, Witch Doctor",
       "range_desc": "60 feet",
       "component_desc": "V",
       "verbal": true,
@@ -7186,7 +7256,8 @@
       "level": 8,
       "school": "Conjuration",
       "class": [
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "8th-level",
       "class_desc": "Wizard",
@@ -7382,10 +7453,11 @@
       "school": "Abjuration",
       "class": [
         "Bard",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "8th-level",
-      "class_desc": "Bard, Wizard",
+      "class_desc": "Bard, Wizard, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S",
       "verbal": true,
@@ -7520,7 +7592,8 @@
       "class": [
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Druid: Coast",
@@ -7590,7 +7663,8 @@
       "class": [
         "Druid",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Druid, Sorcerer, Wizard",
@@ -7887,7 +7961,8 @@
       "school": "Enchantment",
       "class": [
         "Bard",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "6th-level",
       "class_desc": "Bard, Wizard",
@@ -8187,7 +8262,8 @@
       "class": [
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Sorcerer, Warlock, Wizard",
@@ -8213,7 +8289,8 @@
         "Bard",
         "Druid",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: Trickery"
@@ -8297,10 +8374,11 @@
         "Bard",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "8th-level",
-      "class_desc": "Bard, Sorcerer, Warlock, Wizard",
+      "class_desc": "Bard, Sorcerer, Warlock, Wizard, Witch Doctor",
       "range_desc": "60 feet",
       "component_desc": "V",
       "verbal": true,
@@ -8440,7 +8518,8 @@
       "level": 0,
       "school": "Conjuration",
       "class": [
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Druid",
@@ -8588,7 +8667,8 @@
         "Cleric",
         "Druid",
         "Paladin",
-        "Ranger"
+        "Ranger",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "class_desc": "Cleric, Druid, Paladin, Ranger",
@@ -8614,7 +8694,8 @@
         "Cleric",
         "Druid",
         "Paladin",
-        "Ritual Caster"
+        "Ritual Caster",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Cleric, Druid, Paladin, Ritual Caster",
@@ -8664,13 +8745,14 @@
       "class": [
         "Bard",
         "Cleric",
-        "Paladin"
+        "Paladin",
+        "Witch Doctor"
       ],
       "level_desc": "5th-level",
       "cleric_domain": [
         "Life"
       ],
-      "class_desc": "Bard, Cleric, Cleric: Life, Paladin",
+      "class_desc": "Bard, Cleric, Cleric: Life, Paladin, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S, M",
       "verbal": true,
@@ -8793,10 +8875,11 @@
       "class": [
         "Bard",
         "Cleric",
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "7th-level",
-      "class_desc": "Bard, Cleric, Druid",
+      "class_desc": "Bard, Cleric, Druid, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S, M",
       "verbal": true,
@@ -8818,7 +8901,8 @@
       "level": 5,
       "school": "Transmutation",
       "class": [
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "5th-level",
       "class_desc": "Druid",
@@ -8846,7 +8930,8 @@
         "Cleric",
         "Paladin",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
       "class_desc": "Cleric, Paladin, Warlock, Wizard",
@@ -8896,10 +8981,11 @@
       "school": "Necromancy",
       "class": [
         "Bard",
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "level_desc": "7th-level",
-      "class_desc": "Bard, Cleric",
+      "class_desc": "Bard, Cleric, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S, M",
       "verbal": true,
@@ -8923,7 +9009,8 @@
       "class": [
         "Druid",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "7th-level",
       "class_desc": "Druid, Sorcerer, Wizard",
@@ -9190,7 +9277,8 @@
       "class": [
         "Bard",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Warlock: Archfey"
@@ -9254,7 +9342,8 @@
       "level": 7,
       "school": "Transmutation",
       "class": [
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "7th-level",
       "class_desc": "Wizard",
@@ -9281,7 +9370,8 @@
       "class": [
         "Druid",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Druid, Sorcerer, Wizard",
@@ -9471,7 +9561,8 @@
         "Bard",
         "Cleric",
         "Ranger",
-        "Ritual Caster"
+        "Ritual Caster",
+        "Witch Doctor"
       ],
       "archetype": [
         "Druid: Desert"
@@ -9711,7 +9802,8 @@
       "level": 0,
       "school": "Necromancy",
       "class": [
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "level_desc": "Cantrip",
       "class_desc": "Cleric",
@@ -9772,7 +9864,8 @@
       "school": "Necromancy",
       "class": [
         "Bard",
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
       "cleric_domain": [
@@ -9802,7 +9895,8 @@
       "class": [
         "Bard",
         "Druid",
-        "Ranger"
+        "Ranger",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
       "class_desc": "Bard, Druid, Ranger",
@@ -9930,7 +10024,8 @@
       "level": 2,
       "school": "Evocation",
       "class": [
-        "Cleric"
+        "Cleric",
+        "Witch Doctor"
       ],
       "level_desc": "2nd-level",
       "cleric_domain": [
@@ -9982,7 +10077,8 @@
       "class": [
         "Bard",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Druid: Swamp",
@@ -10022,7 +10118,8 @@
       "class": [
         "Cleric",
         "Druid",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "4th-level",
       "druid_circle": [
@@ -10054,7 +10151,8 @@
         "Druid",
         "Ranger",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: War",
@@ -10071,7 +10169,7 @@
       "paladin_oath": [
         "Ancients"
       ],
-      "class_desc": "Cleric: War, Druid, Druid: Mountain, Paladin: Ancients, Ranger, Sorcerer, Wizard",
+      "class_desc": "Cleric: War, Druid, Druid: Mountain, Paladin: Ancients, Ranger, Sorcerer, Wizard, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S, M",
       "verbal": true,
@@ -10144,7 +10242,8 @@
         "Bard",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: Knowledge"
@@ -10282,7 +10381,8 @@
       "class": [
         "Bard",
         "Cleric",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "7th-level",
       "class_desc": "Bard, Cleric, Wizard",
@@ -10308,7 +10408,8 @@
       "school": "Enchantment",
       "class": [
         "Bard",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Warlock: Great Old One"
@@ -10341,7 +10442,8 @@
       "school": "Transmutation",
       "class": [
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "archetype": [
         "Warlock: Great Old One"
@@ -10371,7 +10473,8 @@
       "level": 8,
       "school": "Evocation",
       "class": [
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "8th-level",
       "class_desc": "Wizard",
@@ -10633,7 +10736,8 @@
       "school": "Transmutation",
       "class": [
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "9th-level",
       "class_desc": "Sorcerer, Wizard",
@@ -10686,7 +10790,8 @@
       "school": "Transmutation",
       "class": [
         "Druid",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "5th-level",
       "class_desc": "Druid, Wizard",
@@ -10711,7 +10816,8 @@
       "level": 6,
       "school": "Conjuration",
       "class": [
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "6th-level",
       "class_desc": "Druid",
@@ -10735,7 +10841,8 @@
       "school": "Conjuration",
       "class": [
         "Druid",
-        "Ranger"
+        "Ranger",
+        "Witch Doctor"
       ],
       "archetype": [
         "Cleric: Nature",
@@ -10774,7 +10881,8 @@
       "class": [
         "Bard",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "9th-level",
       "class_desc": "Bard, Warlock, Wizard",
@@ -10800,10 +10908,11 @@
       "school": "Necromancy",
       "class": [
         "Cleric",
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "9th-level",
-      "class_desc": "Cleric, Druid",
+      "class_desc": "Cleric, Druid, Witch Doctor",
       "range_desc": "Touch",
       "component_desc": "V, S, M",
       "verbal": true,
@@ -10829,7 +10938,8 @@
         "Cleric",
         "Sorcerer",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "6th-level",
       "class_desc": "Bard, Cleric, Sorcerer, Warlock, Wizard",
@@ -10906,7 +11016,8 @@
         "Bard",
         "Ritual Caster",
         "Warlock",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "1st-level",
       "class_desc": "Bard, Ritual Caster, Warlock, Wizard",
@@ -11259,7 +11370,8 @@
         "Ranger",
         "Ritual Caster",
         "Sorcerer",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
       "druid_circle": [
@@ -11291,7 +11403,8 @@
         "Druid",
         "Ranger",
         "Ritual Caster",
-        "Sorcerer"
+        "Sorcerer",
+        "Witch Doctor"
       ],
       "level_desc": "3rd-level",
       "druid_circle": [
@@ -11402,7 +11515,8 @@
       "school": "Evocation",
       "class": [
         "Druid",
-        "Wizard"
+        "Wizard",
+        "Witch Doctor"
       ],
       "level_desc": "7th-level",
       "class_desc": "Druid, Wizard",
@@ -11427,7 +11541,8 @@
       "level": 6,
       "school": "Transmutation",
       "class": [
-        "Druid"
+        "Druid",
+        "Witch Doctor"
       ],
       "level_desc": "6th-level",
       "class_desc": "Druid",
@@ -11599,5 +11714,265 @@
       "somatic": true,
       "source": "PHB",
       "page": 289
+    },
+    {
+      "name": "Infestation",
+      "desc": "<p>You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes 1d6 poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.</p><p>The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
+      "range": "30 feet",
+      "ritual": false,
+      "duration": "Instantaneous",
+      "concentration": false,
+      "casting_time": "1 action",
+      "level": 0,
+      "school": "Conjuration",
+      "class": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard",
+        "Witch Doctor"
+      ],
+      "level_desc": "Cantrip",
+      "class_desc": "Druid, Sorcerer, Warlock, Wizard, Witch Doctor",
+      "range_desc": "30 feet",
+      "component_desc": "V, S, M",
+      "material_cost": false,
+      "material_desc": "a living flea",
+      "verbal": true,
+      "material": true,
+      "somatic": true,
+      "source": "XGE",
+      "page": 158
+    },
+    {
+      "name": "Chaos Bolt",
+      "desc": "<p>You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.</p><table data-pdfmake=\"{&quot;layout&quot;:&quot;spellLayout&quot;}\"> <thead><tr><th>d8</th><th>Damage Type</th></tr></thead><tbody><tr><td>1</td><td>Acid</td></tr><tr><td>2</td><td>Cold</td></tr><tr><td>3</td><td>Fire</td></tr><tr><td>4</td><td>Force</td></tr><tr><td>5</td><td>Lightning</td></tr><tr><td>6</td><td>Poison</td></tr><tr><td>7</td><td>Psychic</td></tr><tr><td>8</td><td>Thunder</td></tr></tbody></table><p>If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.</p><p>A creature can be targeted only once by each casting of this spell.</p><p>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.</p>",
+      "range": "120 feet",
+      "ritual": false,
+      "duration": "Instantaneous",
+      "concentration": false,
+      "casting_time": "1 action",
+      "level": 1,
+      "school": "Evocation",
+      "class": [
+        "Sorcerer",
+        "Witch Doctor"
+      ],
+      "level_desc": "1st-level",
+      "class_desc": "Sorcerer, Witch Doctor",
+      "range_desc": "120 feet",
+      "component_desc": "V, S",
+      "verbal": true,
+      "material": false,
+      "somatic": true,
+      "source": "XGE",
+      "page": 151,
+      "@selected": true
+    },
+    {
+      "name": "Enemies Abound",
+      "desc": "<p>You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</p><p>Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to.</p>",
+      "range": "120 feet",
+      "ritual": false,
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "casting_time": "1 action",
+      "level": 3,
+      "school": "Enchantment",
+      "class": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard",
+        "Witch Doctor"
+      ],
+      "level_desc": "3rd-level",
+      "class_desc": "Bard, Sorcerer, Warlock, Wizard, Witch Doctor",
+      "range_desc": "120 feet",
+      "component_desc": "V, S",
+      "verbal": true,
+      "material": false,
+      "somatic": true,
+      "source": "XGE",
+      "page": 155
+    },
+    {
+      "name": "Life Transference",
+      "desc": "<p>You sacrifice some of your health to mend another creature's injuries. You take 4d8 necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.</p><p>At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>",
+      "range": "30 feet",
+      "ritual": false,
+      "duration": "Instantaneous",
+      "concentration": true,
+      "casting_time": "1 action",
+      "level": 3,
+      "school": "Necromancy",
+      "class": [
+        "Cleric",
+        "Wizard",
+        "Witch Doctor"
+      ],
+      "level_desc": "3rd-level",
+      "class_desc": "Cleric, Wizard, Witch Doctor",
+      "range_desc": "30 feet",
+      "component_desc": "V, S",
+      "verbal": true,
+      "material": false,
+      "somatic": true,
+      "source": "XGE",
+      "page": 160
+    },
+    {
+      "name": "Guardian of Nature",
+      "desc": "<p>A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.</p><p><b>Primal Beast.</b> Bestial fur covers your body, your facial features become feral, and you gain the following benefits:</p><ul>    <li>Your walking speed increases by 10 feet.</li>    <li>You gain darkvision with a range of 120 feet.</li>    <li>You make Strength-based attack rolls with advantage.</li>    <li>Your melee weapon attacks deal an extra 1d6 force damage on a hit.</li></ul><p><b>Great Tree.</b> Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:</p><ul>    <li>You gain 10 temporary hit points.</li>    <li>You make Constitution saving throws with advantage.</li>    <li>You make Dexterity- and Wisdom-based attack rolls with advantage.</li>    <li>While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies.</li></ul>",
+      "range": "Self",
+      "ritual": false,
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "casting_time": "1 bonus action",
+      "level": 4,
+      "school": "Transmutation",
+      "class": [
+        "Druid",
+        "Ranger",
+        "Witch Doctor"
+      ],
+      "level_desc": "4th-level",
+      "class_desc": "Druid, Ranger, Witch Doctor",
+      "range_desc": "Self",
+      "component_desc": "V",
+      "verbal": true,
+      "material": false,
+      "somatic": false,
+      "source": "XGE",
+      "page": 157
+    },
+    {
+      "name": "Sickening Radiance",
+      "desc": "<p>Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.</p><p>When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take 4d10 radiant damage, and it suffers one level of exhaustion and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being invisible. The light and any levels of exhaustion caused by this spell go away when the spell ends.</p>",
+      "range": "120 feet",
+      "ritual": false,
+      "duration": "Concentration, up to 10 minutes",
+      "concentration": true,
+      "casting_time": "1 action",
+      "level": 4,
+      "school": "Evocation",
+      "class": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard",
+        "Witch Doctor"
+      ],
+      "level_desc": "4th-level",
+      "class_desc": "Sorcerer, Warlock, Wizard, Witch Doctor",
+      "range_desc": "120 feet",
+      "component_desc": "V, S",
+      "verbal": true,
+      "material": false,
+      "somatic": true,
+      "source": "XGE",
+      "page": 164
+    },
+    {
+      "name": "Danse Macabre",
+      "desc": "<p>Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton (the statistics for zombies and skeletons are in the Monster Manual), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.</p><p>You can use a bonus action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what action the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.</p><p>The creatures are under your control until the spell ends, after which they become inanimate once more.</p><p><b>At Higher Levels.</b> When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th.</p>",
+      "range": "60 feet",
+      "ritual": false,
+      "duration": "Concentration, up to 1 hour",
+      "concentration": true,
+      "casting_time": "1 action",
+      "level": 5,
+      "school": "Necromancy",
+      "class": [
+        "Warlock",
+        "Wizard",
+        "Witch Doctor"
+      ],
+      "level_desc": "5th-level",
+      "class_desc": "Warlock, Wizard, Witch Doctor",
+      "range_desc": "60 feet",
+      "component_desc": "V, S",
+      "verbal": true,
+      "material": false,
+      "somatic": true,
+      "source": "XGE",
+      "page": 153
+    },
+    {
+      "name": "Enervation",
+      "desc": "<p>A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the spell ends. On a failed save, the target takes 4d8 necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. The spell ends if you use your action to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you.</p><p>Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes.</p><p><b>At Higher Levels.</b> When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>",
+      "range": "60 feet",
+      "ritual": false,
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "casting_time": "1 action",
+      "level": 5,
+      "school": "Necromancy",
+      "class": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard",
+        "Witch Doctor"
+      ],
+      "level_desc": "5th-level",
+      "class_desc": "Sorcerer, Warlock, Wizard, Witch Doctor",
+      "range_desc": "60 feet",
+      "component_desc": "V, S",
+      "verbal": true,
+      "material": false,
+      "somatic": true,
+      "source": "XGE",
+      "page": 155
+    },
+    {
+      "name": "Skill Empowerment",
+      "desc": "<p>Your magic deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.</p><p>You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.</p>",
+      "range": "Touch",
+      "ritual": false,
+      "duration": "Concentration, up to 1 hour",
+      "concentration": true,
+      "casting_time": "1 action",
+      "level": 5,
+      "school": "Transmutation",
+      "class": [
+        "Artificer",
+        "Bard",
+        "Sorcerer",
+        "Wizard",
+        "Witch Doctor"
+      ],
+      "level_desc": "5th-level",
+      "class_desc": "Artificer, Bard, Sorcerer, Warlock, Wizard, Witch Doctor",
+      "range_desc": "Touch",
+      "component_desc": "V, S",
+      "verbal": true,
+      "material": false,
+      "somatic": true,
+      "source": "XGE",
+      "page": 155
+    },
+    {
+      "name": "Healing Spirit",
+      "desc": "<p>You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).</p><p>Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can't heal constructs or undead. The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.</p><p>As a bonus action on your turn, you can move the spirit up to 30 feet to a space you can see.</p><p>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 for each slot level above 2nd.</p>",
+      "range": "60 feet",
+      "ritual": false,
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "casting_time": "1 bonus action",
+      "level": 2,
+      "school": "Conjuration",
+      "class": [
+        "Druid",
+        "Ranger",
+        "Witch Doctor"
+      ],
+      "level_desc": "2nd-level",
+      "class_desc": "Druid, Ranger, Witch Doctor",
+      "range_desc": "60 feet",
+      "component_desc": "V, S",
+      "verbal": true,
+      "material": false,
+      "somatic": true,
+      "source": "XGE",
+      "page": 157
     }
   ]

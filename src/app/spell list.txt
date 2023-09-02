@@ -1,0 +1,145 @@
+CANTRIPS (0 LEVEL) 
+Acid Splash 
+Chill touch 
+Control Flames
+Dancing Lights
+Friends 
+Gust 
+Infestation 
+Light 
+Mage Hand 
+Mold Earth 
+Poison Spray
+Produce Flame 
+Shape Water 
+Spare the Dying 
+
+lST LEVEL 
+Absorb Elements 
+Armor of Agathys
+Bane 
+Bless
+Cause Fear 
+Chaos Bolt 
+Cure Wounds 
+Detect Magic 
+Detect Poison and Disease
+Disguise Self 
+Dissonant Whispers 
+Faerie Fire 
+False Life 
+Find Familiar 
+Goodberry 
+Healing Word
+Purify Food and Drink
+Tasha's Hideous Laughter
+Unseen Servant 
+
+2ND LEVEL 
+Aid 
+Alter Self 
+Augury 
+Blindness/Deafness 
+Calm Emotions
+Darkvision 
+Detect Thoughts
+Enhance Ability 
+Gentle Repose 
+Healing Spirit
+Invisibility 
+Lesser Restoration
+Locate Animals or Plants
+Magic Weapon 
+Misty Step 
+Protection from Poison
+Silence 
+Spiritual Weapon
+Suggestion
+
+3RD LEVEL 
+Animate Dead 
+Clairvoyance 
+Create Food and Water 
+Dispel Magic 
+Enemies Abound 
+Feign Death 
+Gaseous Form 
+Haste 
+Life Transference 
+Mass Healing Word
+Remove Curse 
+Revivify
+Speak with Dead 
+Speak with Plants 
+Stinking Cloud 
+Water Breathing 
+Water Walk
+
+4TH LEVEL 
+Blight 
+Confusion 
+Control Water 
+Death Ward
+Freedom of Movement 
+Grasping Vine 
+Guardian of Nature 
+Hallucinatory Terrain 
+Locate Creature
+Polymorph
+Sickening Radiance 
+Stone Shape 
+Stoneskin
+
+5TH LEVEL 
+Antilife Shell 
+Awaken 
+Commune with Nature 
+Danse Macabre 
+Enervation 
+Greater Restoration
+Insect Plague 
+Mass Cure Wounds
+Raise Dead
+Reincarnate 
+Skill Empowerment 
+Seeming 
+Telekinesis 
+Transmute Rock 
+Tree Stride 
+
+6TH LEVEL 
+Bones of the Earth 
+Circle of Death 
+Harm
+Heal
+Otto's Irresistible Dance 
+Transport Via Plants 
+True Seeing 
+Wind Walk 
+
+7TH LEVEL 
+Etherealness 
+Regenerate
+Resurrection
+Reverse Gravity 
+Sequester 
+Symbol 
+Whirlwind 
+
+8TH LEVEL 
+Abi-dalzim's Horrid Wilting
+Antipathy/Sympathy
+Glibness 
+Maze 
+Mind Blank
+Power Word Stun
+Telepathy 
+
+9TH LEVEL 
+Astral Projection
+Foresight 
+Imprisonment 
+Mass Heal
+Time Stop 
+True Polymorph 
+True Resurrection

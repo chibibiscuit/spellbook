@@ -8,5 +8,6 @@ export enum ClassEnum {
     Sorceror = 'Sorceror',
     Wizard = 'Wizard',
     Warlock = 'Warlock',
+    WitchDoctor = 'Witch Doctor',
     RitualCaster = 'Ritual Caster'
 }

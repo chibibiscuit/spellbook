@@ -67,7 +67,7 @@
 }
 
 .preview {
-    background-color: black;
+    // background-color: black;
 
     @media print {
         overflow: visible !important;
@@ -94,8 +94,8 @@ $bottom-margin: 0.75in;
     // background-position: ;
 }
 
-.page {
-    position: relative;
+.zpage {
+    // position: relative;
     background-color: white !important;
     color: black !important;
     box-shadow: 4px 4px 8px black;
@@ -198,43 +198,43 @@ $bottom-margin: 0.75in;
     
 }
 
-.page-footer {
-    position: absolute;
-    bottom: 0.35in;
-    width: 4.7in;
-    left: 50%;
-    // margin-left: -2.5in;
-    opacity: 0.8;
-    z-index: 0;
-}
+// .page-footer {
+//     position: absolute;
+//     bottom: 0.35in;
+//     width: 4.7in;
+//     left: 50%;
+//     // margin-left: -2.5in;
+//     opacity: 0.8;
+//     z-index: 0;
+// }
 
-.page-number {
-    font-family: 'Spectral';
-    font-weight: bold;
-    font-size: 11pt;
-    position:absolute;
-    bottom: 0.48in;
-    width: 0.5in;
-    text-align: center;
-    left: 50%;
-    margin-left: -0.25in;
-    opacity: 0.8;
-}
+// .page-number {
+//     font-family: 'Spectral';
+//     font-weight: bold;
+//     font-size: 11pt;
+//     position:absolute;
+//     bottom: 0.48in;
+//     width: 0.5in;
+//     text-align: center;
+//     left: 50%;
+//     margin-left: -0.25in;
+//     opacity: 0.8;
+// }
 
-.spell-page .page-number {
-    margin-left: -0.35in;
-}
-.blank-page .page-number {
-    margin-left: -0.15in;
-}
+// .spell-page .page-number {
+//     margin-left: -0.35in;
+// }
+// .blank-page .page-number {
+//     margin-left: -0.15in;
+// }
 
-.spell-page .page-footer {
-    margin-left: -2.45in;
-}
+// .spell-page .page-footer {
+//     margin-left: -2.45in;
+// }
 
-.blank-page .page-footer {
-    margin-left: -2.25in;
-}
+// .blank-page .page-footer {
+//     margin-left: -2.25in;
+// }
 
 // %page {
 //     size: 8.5in 5.5in portrait;
@@ -242,6 +242,94 @@ $bottom-margin: 0.75in;
 //     5.
 // }
 
-// @page {
-//     size: 5.5in 8.5in;
-// }
+@page {
+    size: 5.5in 8.5in;
+    margin: 0.5in 0.5in 0.8in;
+
+    @bottom-center {
+        content: "LALALA"
+        // background-image: url('assets/images/footer.png')
+    }
+}
+
+$inner-margin: 0.75in;
+@page:left {
+    margin-right: $inner-margin;
+}
+
+@page:right {
+    margin-left: $inner-margin;
+}
+
+@media print {
+    footer {
+        position: fixed;
+        bottom: 0;
+
+        img {
+            width: 100%;
+            opacity: 0.8;
+        }
+    }
+}
+
+.page {
+    position: relative;
+    // padding-bottom: 0.8in;
+
+    .page-footer {
+        // position: fixed;
+        // bottom: 0;
+        // width: 100%;
+        // height: 0.8in;
+        // height: 215px;
+        // transform: scale(1) rotate(0) translate3d(0,0,0);
+        // background-image: url('/src/assets/images/footer.png');
+        // background-size: contain;
+        
+        img {
+            width: 100%;
+            opacity: 0.8;
+        }
+    }
+
+    .spell-name {
+        page-break-before: always;
+        font-family: 'Spectral';
+        font-size: 30pt;
+        margin-bottom: 8px;
+        margin-left: -4px;
+        line-height: 30pt;
+    }
+
+    .spell-subtitle {
+        font-size: 12pt;
+        font-style: italic;
+        opacity: 0.8;
+        width: 100%;
+    }
+
+    .details {
+        margin-top: 12px;
+        margin-bottom: 18px;
+
+        .detail-row {
+            label {
+                font-weight: bold;
+            }
+
+            .detail {
+                padding-left: 8px;
+            }
+        }
+    }
+
+    .spell-description {
+        position: relative;
+        text-align: justify;
+
+        p {
+            page-break-inside: avoid;
+        }
+    }
+}
